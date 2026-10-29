@@ -1,4 +1,4 @@
-/config/chlink OFF OFF OFF ON OFF OFF OFF ON
+/config/chlink OFF OFF OFF ON OFF OFF ON ON
 /config/buslink OFF OFF OFF
 /config/linkcfg ON ON ON ON
 /config/solo   0.0 LRAFL 0.0 PFL PFL -20 OFF OFF OFF OFF
@@ -305,7 +305,7 @@
 /ch/12/mix/10   -oo OFF POST
 /ch/12/grp %0000 %0000
 /ch/12/automix OFF  +0.0
-/ch/13/config "" 0 In13 U18
+/ch/13/config "HDMI HI L" 1 In13 U18
 /ch/13/preamp +0.0 OFF OFF OFF  20
 /ch/13/gate OFF GATE -80.0 60.0 1  502 983 SELF
 /ch/13/gate/filter OFF 3.0 990.9
@@ -317,12 +317,12 @@
 /ch/13/eq/2 PEQ 496.6 +0.00 2.0
 /ch/13/eq/3 PEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 10k02 +0.00 2.0
-/ch/13/mix ON   -oo ON +0
-/ch/13/mix/01   -oo OFF POST +0
+/ch/13/mix ON -13.0 ON -100
+/ch/13/mix/01   -oo OFF POST -100
 /ch/13/mix/02   -oo OFF POSTEQ
-/ch/13/mix/03   -oo OFF POSTEQ +0
+/ch/13/mix/03   -oo OFF POSTEQ -100
 /ch/13/mix/04   -oo OFF POSTEQ
-/ch/13/mix/05   -oo OFF POSTEQ +0
+/ch/13/mix/05   -oo OFF POSTEQ -100
 /ch/13/mix/06   -oo OFF POSTEQ
 /ch/13/mix/07   -oo OFF POST
 /ch/13/mix/08   -oo OFF POST
@@ -330,7 +330,7 @@
 /ch/13/mix/10   -oo OFF POST
 /ch/13/grp %0000 %0000
 /ch/13/automix OFF  +0.0
-/ch/14/config "" 0 In14 U18
+/ch/14/config "HDMI HI R" 1 In14 U18
 /ch/14/preamp +0.0 OFF OFF OFF  20
 /ch/14/gate OFF GATE -80.0 60.0 1  502 983 SELF
 /ch/14/gate/filter OFF 3.0 990.9
@@ -342,12 +342,12 @@
 /ch/14/eq/2 PEQ 496.6 +0.00 2.0
 /ch/14/eq/3 PEQ 1k97 +0.00 2.0
 /ch/14/eq/4 HShv 10k02 +0.00 2.0
-/ch/14/mix ON   -oo ON +0
-/ch/14/mix/01   -oo OFF POST +0
+/ch/14/mix ON -13.0 ON +100
+/ch/14/mix/01   -oo OFF POST +100
 /ch/14/mix/02   -oo OFF POSTEQ
-/ch/14/mix/03   -oo OFF POSTEQ +0
+/ch/14/mix/03   -oo OFF POSTEQ +100
 /ch/14/mix/04   -oo OFF POSTEQ
-/ch/14/mix/05   -oo OFF POSTEQ +0
+/ch/14/mix/05   -oo OFF POSTEQ +100
 /ch/14/mix/06   -oo OFF POSTEQ
 /ch/14/mix/07   -oo OFF POST
 /ch/14/mix/08   -oo OFF POST
@@ -367,7 +367,7 @@
 /ch/15/eq/2 PEQ 496.6 +0.00 2.0
 /ch/15/eq/3 PEQ 1k97 +0.00 2.0
 /ch/15/eq/4 HShv 10k02 +0.00 2.0
-/ch/15/mix ON -29.7 ON -100
+/ch/15/mix ON -29.2 ON -100
 /ch/15/mix/01   -oo OFF POST -100
 /ch/15/mix/02   -oo OFF POSTEQ
 /ch/15/mix/03   -oo OFF POSTEQ -100
@@ -392,7 +392,7 @@
 /ch/16/eq/2 PEQ 496.6 +0.00 2.0
 /ch/16/eq/3 PEQ 1k97 +0.00 2.0
 /ch/16/eq/4 HShv 10k02 +0.00 2.0
-/ch/16/mix ON -29.7 ON +100
+/ch/16/mix ON -29.2 ON +100
 /ch/16/mix/01   -oo OFF POST +100
 /ch/16/mix/02   -oo OFF POSTEQ
 /ch/16/mix/03   -oo OFF POSTEQ +100
