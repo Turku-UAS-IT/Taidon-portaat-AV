@@ -42,7 +42,7 @@
 /ch/02/eq/2 PEQ 496.6 +0.00 2.0
 /ch/02/eq/3 PEQ 1k97 +0.00 2.0
 /ch/02/eq/4 HShv 10k02 +0.00 2.0
-/ch/02/mix ON  -4.6 ON +0
+/ch/02/mix ON  +4.9 ON +0
 /ch/02/mix/01   0.0 OFF POST +0
 /ch/02/mix/02   -oo OFF POSTEQ
 /ch/02/mix/03   -oo OFF POSTEQ +0
