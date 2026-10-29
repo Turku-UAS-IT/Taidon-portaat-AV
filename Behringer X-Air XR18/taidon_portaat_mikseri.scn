@@ -6,10 +6,10 @@
 /config/amixlock OFF OFF
 /config/mute OFF OFF OFF OFF
 /ch/01/config "Mic 1" 1 In01 U18
-/ch/01/preamp +0.0 OFF OFF OFF  20
+/ch/01/preamp +5.0 OFF OFF ON  20
 /ch/01/gate OFF GATE -80.0 60.0 1  502 983 SELF
 /ch/01/gate/filter OFF 3.0 990.9
-/ch/01/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0 151 100 SELF OFF
+/ch/01/dyn ON COMP PEAK LOG -48.5 3.0 1 2.50 10 10.0 151 100 SELF OFF
 /ch/01/dyn/filter OFF 3.0 990.9
 /ch/01/insert OFF OFF
 /ch/01/eq ON
@@ -17,7 +17,7 @@
 /ch/01/eq/2 PEQ 496.6 +0.00 2.0
 /ch/01/eq/3 PEQ 1k97 +0.00 2.0
 /ch/01/eq/4 HShv 10k02 +0.00 2.0
-/ch/01/mix ON  -3.2 ON +0
+/ch/01/mix ON  +5.1 ON +0
 /ch/01/mix/01   0.0 OFF POST +0
 /ch/01/mix/02   -oo OFF POSTEQ
 /ch/01/mix/03   -oo OFF POSTEQ +0
@@ -31,10 +31,10 @@
 /ch/01/grp %0000 %0000
 /ch/01/automix OFF  +0.0
 /ch/02/config "Mic 2" 1 In02 U18
-/ch/02/preamp +0.0 OFF OFF OFF  20
+/ch/02/preamp +5.0 OFF OFF ON  20
 /ch/02/gate OFF GATE -80.0 60.0 1  502 983 SELF
 /ch/02/gate/filter OFF 3.0 990.9
-/ch/02/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0 151 100 SELF OFF
+/ch/02/dyn ON COMP PEAK LOG -49.5 3.0 1 2.50 10 10.0 151 100 SELF OFF
 /ch/02/dyn/filter OFF 3.0 990.9
 /ch/02/insert OFF OFF
 /ch/02/eq ON
@@ -42,7 +42,7 @@
 /ch/02/eq/2 PEQ 496.6 +0.00 2.0
 /ch/02/eq/3 PEQ 1k97 +0.00 2.0
 /ch/02/eq/4 HShv 10k02 +0.00 2.0
-/ch/02/mix ON   -oo ON +0
+/ch/02/mix ON  -4.6 ON +0
 /ch/02/mix/01   0.0 OFF POST +0
 /ch/02/mix/02   -oo OFF POSTEQ
 /ch/02/mix/03   -oo OFF POSTEQ +0
@@ -367,7 +367,7 @@
 /ch/15/eq/2 PEQ 496.6 +0.00 2.0
 /ch/15/eq/3 PEQ 1k97 +0.00 2.0
 /ch/15/eq/4 HShv 10k02 +0.00 2.0
-/ch/15/mix ON  -1.6 ON -100
+/ch/15/mix ON -29.7 ON -100
 /ch/15/mix/01   -oo OFF POST -100
 /ch/15/mix/02   -oo OFF POSTEQ
 /ch/15/mix/03   -oo OFF POSTEQ -100
@@ -392,7 +392,7 @@
 /ch/16/eq/2 PEQ 496.6 +0.00 2.0
 /ch/16/eq/3 PEQ 1k97 +0.00 2.0
 /ch/16/eq/4 HShv 10k02 +0.00 2.0
-/ch/16/mix ON  -1.6 ON +100
+/ch/16/mix ON -29.7 ON +100
 /ch/16/mix/01   -oo OFF POST +100
 /ch/16/mix/02   -oo OFF POSTEQ
 /ch/16/mix/03   -oo OFF POSTEQ +100
@@ -608,7 +608,7 @@
 /lr/eq/5 PEQ 20.0 +0.00 2.0
 /lr/eq/6 HShv 20.0 +0.00 2.0
 /lr/geq 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-/lr/mix ON   -oo +0
+/lr/mix ON  -1.4 +0
 /dca/1 ON   0.0
 /dca/1/config "" 8
 /dca/2 ON   0.0
